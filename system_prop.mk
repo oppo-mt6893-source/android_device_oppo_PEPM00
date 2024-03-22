@@ -6,10 +6,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1
 
-# Fingerprint
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.boot.realme.lockstate=0
-
 # IMS
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
